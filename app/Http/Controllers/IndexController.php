@@ -18,6 +18,9 @@ class IndexController extends Controller
         return view('Users.detailProduit');
     }
 
+    public function exemple(){
+        return view('Users.exemple');
+    }
     /**
      * Show the form for creating a new resource.
      */

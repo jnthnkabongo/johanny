@@ -1,22 +1,10 @@
 @extends('Users.layouts.entete')
 @section('content')
     <main class="mt-5">
-        <section class="py-5 text-center container">
-            <div class="row py-lg-5">
-            <div class="col-lg-6 col-md-8 mx-auto">
-                <h1 class="fw-light">Album example</h1>
-                <p class="lead text-body-secondary">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
-                <p>
-                <a href="#" class="btn btn-primary my-2">Main call to action</a>
-                <a href="#" class="btn btn-secondary my-2">Secondary action</a>
-                </p>
-            </div>
-            </div>
-        </section>
         <div class="row">
-        <div class="col-3 col-md-3 col-sm-12">
-            <div class="col-3 aside bg-light">
-                <h3 class="mt-4">Aside Menu</h3>
+        <div class="col-2 col-lg-2 col-md-2 col-sm-12">
+            <div class="col-12 col-lg-12 col-md-12 aside py-5 position-fixed h-100">
+                <h3 class="">Aside Menu</h3>
                 <ul class="nav flex-column">
                   <li class="nav-item">
                     <a class="nav-link active" href="#">Home</a>
@@ -33,7 +21,7 @@
                 </ul>
             </div>
         </div>
-        <div class="col-9 col-md-9 col-sm-12">
+        <div class="col-10 col-lg-10 col-md-10 col-sm-12">
             <div class="album py-5 bg-body-tertiary">
                 <div class="container">
 
